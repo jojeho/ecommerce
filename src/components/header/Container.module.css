@@ -1,0 +1,65 @@
+/* :root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+ */
+
+/* .container html, body, div, h1, h2, h3, h4, h5, h6, span, object, iframe, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, a, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, textarea, select, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, button, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    letter-spacing: -0.02em;
+    font-family: 'SamsungOneKorean', Dotum, '돋움', sans-serif;
+    vertical-align: baseline;
+    background: transparent;
+    word-break: keep-all;
+    box-sizing: border-box;
+} */
+
+.container {
+    /* #header__navi .menuitem__l2__wrap.type__table { */
+        border-left: 1px solid #ddd;
+        padding-left: 30px;
+        width: max-content;
+        list-style-type: none;
+        display:block;
+    
+        line-height: 30px;
+        font-weight: bold;
+        color: #000;
+
+        display:flex;
+        flex-direction:row;
+        flex-flow:wrap;
+        gap: 10px;
+}
+
+.container a {
+    
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
+    position: relative;
+
+}
+
+/* .container ol, ul, li {
+    list-style: none;
+} */
+
+.container li {
+    display: list-item;
+    text-align: center
+    /* background:red */
+}
+
+.container img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+

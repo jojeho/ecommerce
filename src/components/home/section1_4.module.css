@@ -1,0 +1,40 @@
+.root{
+    position:relative;
+    /* background-image  : url("/home/pt/section_4/img.webp"); */
+    /* background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.message {
+    position:absolute;
+    color:white;
+    bottom:50%;
+    left:10%;
+    display:flex;
+    flex-direction:column;
+    /* padding:15.4166666667vw 10vw 15.6944444444vw; */
+}
+
+.message h4{
+    font-size:var(--font-lg);
+    font-weight:bold;
+}
+
+.message h3{
+    font-size:var(--font-md);
+}
+
+.message h2{
+    font-size:var(--font-md);
+    font-weight:500;
+}
+
+.message h1{
+    font-size:var(--font-sm);
+    font-weight:200;
+}
+
+.message em{
+    color:#0c7c94
+}

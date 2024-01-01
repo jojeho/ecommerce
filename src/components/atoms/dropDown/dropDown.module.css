@@ -1,0 +1,80 @@
+  /* :root{
+    outline:0
+  } */
+
+  .header {
+    border-radius: 32px;
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    color: inherit;
+    font-size: 0.9rem;    
+  
+    
+  
+    font-family: 'SamsungOneKorean', Dotum, '돋움', sans-serif;
+    letter-spacing: -0.02em;
+    word-break: keep-all;
+    box-sizing: border-box;
+    border: 0;
+    outline:none;
+    text-wrap:nowrap;
+/* 
+    &:hover{
+      background:back;
+    } */
+}
+
+
+
+.header:hover{
+  background:black;
+  color:white
+}
+
+.open_header {
+
+    width: fit-content;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 20px 24px 4px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+
+    left: auto;
+    right: -130px;
+    /* visibility: hidden; */
+
+   outline:none;
+   background:white; 
+
+}
+
+.unselected{
+  /* cursor:default; */
+  cursor: pointer;
+  cursor:grap;
+  color:black;
+  border: 0;
+  outline: none;
+  font-weight: 700;
+  text-wrap:nowrap;
+
+}
+
+
+.selected {
+  /* cursor:default; */
+  cursor: pointer;
+  color:black;
+  border: 0;
+  outline: none;
+  /* text-decoration : underline; */
+  font-weight: 700;
+  text-wrap:nowrap;
+}

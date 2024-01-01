@@ -1,0 +1,154 @@
+
+
+.root{
+  position:relative;
+  
+  /* position:relative;
+  display:flex;
+  flex-direction:column; */
+ 
+}
+
+.menu {
+ 
+  position:absolute;
+   bottom : 5%;
+   left : 10%;
+   
+   list-style:none;
+
+  display:flex;
+  flex-direction:row;
+  gap:1rem;
+  
+
+  font-size: 1vw;
+  text-decoration:underline;  
+  text-align: center;
+  text-underline-offset : 0.5rem; 
+  color :var(--default-text-color);
+  /* color:214, 219, 220; */
+  font-weight: bold;
+
+  /* background-color:red; */
+} 
+
+
+.menu button{
+  /* list-style: none; */
+  display: block;
+  /* list-style-type: disc; */
+ 
+}
+
+
+.menu_white {
+ 
+  position:absolute;
+   bottom : 5%;
+   left : 10%;
+   
+   list-style:none;
+
+  display:flex;
+  flex-direction:row;
+  gap:1rem;
+  
+
+  font-size: 1vw;
+  text-decoration:underline;  
+  text-align: center;
+  text-underline-offset : 0.5rem; 
+  color :white;
+  /* color:214, 219, 220; */
+  font-weight: bold;
+
+  /* background-color:red; */
+} 
+
+
+.menu_white button{
+  /* list-style: none; */
+  display: block;
+  /* list-style-type: disc; */
+ 
+}
+
+
+/* .menu ol, ul, li {
+  list-style: none;
+} */
+
+
+
+
+.controller {
+
+  position : absolute;
+  top : 50%;
+  width:100%;
+  /* margin-top: 10px; */
+  display: flex; 
+  flex-direction:row;
+  justify-content: space-between  ;
+ 
+  padding  : 0 20px 0 20px;
+  
+}
+
+.left_button {
+  background-image : url("/home/pt/leftArrow.svg");
+  width :  40px;
+  height : 40px;
+  background-repeat:no-repeat;
+  outline:none;
+  
+  
+  /* z-index:20; */
+}
+  
+
+.right_button {
+  background-image:url("/home/pt/rightArrow.svg");
+  /* width :100%; */
+  width :  40px;
+  height : 40px;
+  background-repeat:no-repeat;
+  outline:none;
+} 
+
+
+.left_button_white {
+  background-image : url("/home/pt/leftArrowWhite.svg");
+  width :  40px;
+  height : 40px;
+  background-repeat:no-repeat;
+  outline:none;
+  
+  
+  /* z-index:20; */
+}
+  
+
+.right_button_white {
+  background-image:url("/home/pt/rightArrowWhite.svg");
+  /* width :100%; */
+  width :  40px;
+  height : 40px;
+  background-repeat:no-repeat;
+  outline:none;
+} 
+
+
+
+
+
+@media (max-width:732px) { 
+
+  .menu { 
+   
+      visibility:hidden;
+      width :0;
+      height:0;
+  }
+} 

@@ -1,0 +1,23 @@
+
+.root{
+
+    width:1020px;
+    height:100%;
+}
+
+.box {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap : 5px;
+    width : 1000px;
+    /* height : 100%; */
+    /* padding:20px; */
+    margin:
+}
+
+.box img{
+    width : 300px;
+    border-radius:20px;
+
+}

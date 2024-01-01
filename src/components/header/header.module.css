@@ -1,0 +1,133 @@
+.root{
+
+    outline: "none";
+}
+
+.header__navi {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    transition: background 0.3s;
+}
+
+.header__navi .header__inner {
+    max-width: 1440px;
+    padding-top: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__box {
+    width: 330px;
+    height: auto;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 14px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.input {
+    border: 0;
+    color: #000;
+    background: transparent;
+    z-index: 1;
+    outline: none;
+   
+    /* background:red; */
+
+}
+
+.sub_menu{
+    display:flex;
+    flex-row:row;
+    max-width:600px;
+  
+}
+
+.sub_menu ul { 
+
+    padding : 0px  1rem 0px 0px;
+}
+
+.sub_menu li {
+    text-decoration:none
+}
+
+.sub_menu li:hover{
+    
+     text-decoration:underline
+}
+
+/* #nav {
+    border-radius: 32px;
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    color: inherit;
+    font-size: 0.9rem;    
+  
+  
+  
+    font-family: 'SamsungOneKorean', Dotum, '돋움', sans-serif;
+    letter-spacing: -0.02em;
+    word-break: keep-all;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+#header__navi ul.menu__list li.menuitem__l0 .item__button {
+    border-radius: 32px;
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    color: inherit;
+} */
+/* #header__navi ul.menu__list li.menuitem__l0 .item__button {
+    border-radius: 32px;
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    color: inherit;
+} */
+
+/* .input:focus  {
+    height: 2.4306vw;
+    font-size: 0.9028vw;
+    outline:none;
+} */
+/*
+.input [type="text"], input[type="password"] {
+    height: 35px;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.input [type=text] {
+    -webkit-appearance: none;
+    background: #fff;
+    height: 26px;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 100%;
+} */
